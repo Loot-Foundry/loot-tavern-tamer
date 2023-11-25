@@ -1,0 +1,68 @@
+{
+	"id": "module-template",
+	"title": "Example Title",
+	"description": "Example Description.",
+	"version": "This is replaced",
+	"manifestPlusVersion": "1.2.0",
+	"authors": [
+		{
+			"name": "Agginmad",
+			"url": "https://www.patreon.com/LootTavern",
+			"discord": "Aggi#5287",
+			"twitter": "@loottavern",
+			"patreon": "LootTavern",
+			"reddit": "u/Agginmad"
+		},
+		{
+			"name": "MrVauxs",
+			"discord": "MrVauxs#8622",
+			"twitter": "@ThatVauxs",
+			"email": "mrvauxs@gmail.com",
+			"ko-fi": "MrVauxs",
+			"patreon": "MrVauxs",
+			"flags": {}
+		}
+	],
+	"compatibility": {
+		"minimum": "10",
+		"verified": "11"
+	},
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"manifest": "https://github.com/foundryvtt/dnd5e/releases/latest/download/system.json",
+				"compatibility": {
+					"minimum": "2.2.1"
+				}
+			}
+		]
+	},
+	"packs": [
+		{
+			"label": "Example",
+			"name": "example",
+			"path": "packs/example.db",
+			"system": "dnd5e",
+			"type": "Item",
+			"flags": {}
+		}
+	],
+	"flags": {
+		"host": "https://loottavern.com/Foundry%20packs",
+		"path": "category/your-module-name-here",
+		"hash": "Just for easy access to the random hash. See README for generator."
+	},
+	"url": "https://loottavern.com/shop/",
+	"bugs": "https://github.com/Loot-Foundry/loot-tavern-content",
+	"media": [
+		{
+			"auto": true,
+			"type": "setup",
+			"url": "modules/module-template/media/setup.webp"
+		}
+	],
+	"manifest": "https://loottavern.com/Foundry%20packs/category/your-module-name-here/module.json",
+	"download": "https://loottavern.com/Foundry%20packs/category/your-module-name-here/module.zip"
+}
