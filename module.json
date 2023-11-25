@@ -74,6 +74,13 @@
             "name": "familiars",
             "path": "packs/familiars.db",
             "system": "dnd5e"
+        },
+        {
+            "label": "Tamer - Spells",
+            "type": "Item",
+            "name": "spells",
+            "path": "packs/spells.db",
+            "system": "dnd5e"
         }
 	],
 	"flags": {
