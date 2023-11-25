@@ -1,7 +1,7 @@
 {
-	"id": "module-template",
-	"title": "Example Title",
-	"description": "Example Description.",
+	"id": "loot-tavern-tamer",
+	"title": "Loot Tavern - Tamer",
+	"description": "The Free, Public Module for the Tamer class from Loot Tavern!",
 	"version": "This is replaced",
 	"manifestPlusVersion": "1.2.0",
 	"authors": [
@@ -34,35 +34,61 @@
 				"type": "system",
 				"manifest": "https://github.com/foundryvtt/dnd5e/releases/latest/download/system.json",
 				"compatibility": {
-					"minimum": "2.2.1"
+					"minimum": "2.3.1"
 				}
 			}
 		]
 	},
 	"packs": [
 		{
-			"label": "Example",
-			"name": "example",
-			"path": "packs/example.db",
-			"system": "dnd5e",
-			"type": "Item",
-			"flags": {}
-		}
+            "label": "Tamer",
+            "type": "Item",
+            "name": "tamer",
+            "path": "packs/tamer.db",
+            "system": "dnd5e"
+        },
+        {
+            "label": "Tamer - Player Features",
+            "type": "Item",
+            "name": "player-features",
+            "path": "packs/player-features.db",
+            "system": "dnd5e"
+        },
+        {
+            "label": "Tamer - Subclasses",
+            "type": "Item",
+            "name": "subclasses",
+            "path": "packs/subclasses.db",
+            "system": "dnd5e"
+        },
+        {
+            "label": "Tamer - Familiar Features",
+            "type": "Item",
+            "name": "familiar-features",
+            "path": "packs/familiar-features.db",
+            "system": "dnd5e"
+        },
+        {
+            "label": "Tamer - Familiars",
+            "type": "Actor",
+            "name": "familiars",
+            "path": "packs/familiars.db",
+            "system": "dnd5e"
+        }
 	],
 	"flags": {
 		"host": "https://loottavern.com/Foundry%20packs",
-		"path": "category/your-module-name-here",
-		"hash": "Just for easy access to the random hash. See README for generator."
+		"path": "LLTT/loot-tavern-tamer"
 	},
 	"url": "https://loottavern.com/shop/",
-	"bugs": "https://github.com/Loot-Foundry/loot-tavern-content",
+	"bugs": "https://github.com/Loot-Foundry/loot-tavern-tamer",
 	"media": [
 		{
 			"auto": true,
 			"type": "setup",
-			"url": "modules/module-template/media/setup.webp"
+			"url": "modules/loot-tavern-tamer/media/setup.webp"
 		}
 	],
-	"manifest": "https://loottavern.com/Foundry%20packs/category/your-module-name-here/module.json",
-	"download": "https://loottavern.com/Foundry%20packs/category/your-module-name-here/module.zip"
+	"manifest": "https://loottavern.com/Foundry%20packs/LLTT/loot-tavern-tamer/module.json",
+	"download": "https://loottavern.com/Foundry%20packs/LLTT/loot-tavern-tamer/module.zip"
 }
